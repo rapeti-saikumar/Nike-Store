@@ -23,6 +23,8 @@
   /* slider */
   .sliderContainer {
     clip-path: none;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
   .sliderImage {
     width: 90%;
@@ -35,9 +37,9 @@
     display: none;
   }
   .sliderPrice {
-    top: 0;
+    top: -10%;
     /* bottom: 0; */
-    left: 0;
+    left: 1%;
     font-size: 32px;
     font-weight: 600;
     border: none;
@@ -58,7 +60,7 @@
     color: rgb(255, 255, 255);
   }
   .buyButton {
-    bottom: 1%;
+    bottom: -10%;
     right: 1%;
     top: unset;
     border: none;
