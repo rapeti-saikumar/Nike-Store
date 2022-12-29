@@ -1,0 +1,78 @@
+/* nav section start*/
+.searchIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.nav-container {
+  background: #111;
+  color: white;
+  padding: 20px 50px;
+}
+
+.navTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.search:hover {
+  transform: scale(1.01);
+  transition: all 0.3s linear;
+}
+.searchInput {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  height: 20px;
+  color: lightgrey;
+  font-size: 16px;
+}
+.searchInput::placeholder {
+  color: lightgrey;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.limitedOffer {
+  display: inline-block;
+  font-size: 20px;
+  border-bottom: 2px solid green;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  animation: buttonAnimate 3s linear infinite alternate;
+}
+
+.navBottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.navLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navLink {
+  display: flex;
+  margin-right: 50px;
+  color: lightgray;
+  font-weight: 400;
+}
+.navLink:hover {
+  transform: translateY(-2px) scale(1.2);
+  transition: all 0.3s linear;
+}
+
+/* nav section end*/
